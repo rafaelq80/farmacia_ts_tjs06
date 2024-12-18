@@ -28,7 +28,7 @@ export function main() {
         console.log("Entre com a opção desejada: ");
         opcao = readlinesync.questionInt("");
 
-        if (opcao == 6) {
+        if (opcao === 6) {
             console.log(colors.fg.greenstrong, 
                 "\nFarmácia Bem Estar - Remédio Barato é aqui!");
             sobre();
