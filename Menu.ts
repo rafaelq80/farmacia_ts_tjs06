@@ -84,6 +84,8 @@ export function main() {
 						cancel: false,
 					}) + 1
 
+				console.log(tipo)
+
 				preco = readlinesync.questionFloat('Digite o preco: ')
 
 				switch (tipo) {
